@@ -1,19 +1,15 @@
-Here’s everything in a **single code block**, maintaining the exact structure you need:  
-
-```markdown
 # Quantum-Driven Arbitrage Strategies in Decentralized Finance (DeFi)
 
 ## 📌 Overview
 This project leverages **quantum computing and classical methods** to optimize arbitrage trading strategies in **Decentralized Finance (DeFi)**. It automates data collection, quantum optimization, trade execution, backtesting, and result analysis.
 
 ## 📂 Project Structure
-To properly format the **directory structure** in your `README.md` file so it appears correctly on GitHub, wrap it inside triple backticks (` ``` `) to maintain **code block formatting**. Here's how you should structure it:
 
-```md
+```
 # Quantum DeFi Arbitrage
 
 ## 📂 Project Structure
-
+```
 
 ## Description of Key Components
 
@@ -39,8 +35,6 @@ To properly format the **directory structure** in your `README.md` file so it ap
 - **`generate_report.py`**: Generates a PDF report summarizing results.
 - **`config.py`**: Stores API keys, contract addresses, and other configurations.
 - **`config.json`**: Configuration file for API keys and parameters.
-
-
 
 ## ⚙️ Setup Instructions
 
@@ -143,5 +137,3 @@ For questions, reach out to:
 💼 **[LinkedIn](https://linkedin.com/in/karthikeya9296)**
 
 **🚀 Happy Trading!** 🔥💰
-```
-
