@@ -95,12 +95,17 @@ python src/generate_report.py
 ## 📊 Generated Outputs
 
 ### **🔹 Data Files**
-- `data/raw/token_prices.csv` → Raw market prices
-- `data/processed/optimized_arbitrage.csv` → Optimized trade signals
+| File | Description |
+|------|------------|
+| [`data/raw/token_prices.csv`](data/raw/token_prices.csv) | Raw market prices |
+| [`data/processed/optimized_arbitrage.csv`](data/processed/optimized_arbitrage.csv) | Optimized trade signals |
 
 ### **🔹 Logs**
-- `results/logs/arbitrage_trades.csv` → Executed trade logs
-- `results/logs/backtesting_results.csv` → Historical backtesting results
+| File | Description |
+|------|------------|
+| [`results/logs/arbitrage_trades.csv`](results/logs/arbitrage_trades.csv) | Executed trade logs |
+| [`results/logs/backtesting_results.csv`](results/logs/backtesting_results.csv) | Historical backtesting results |
+
 
 ### 📊 Visualizations
 
@@ -124,8 +129,10 @@ python src/generate_report.py
 
 
 ### **🔹 Reports**
-- **PDF Report** → `results/reports/arbitrage_report.pdf`
-  - Contains **trade results, performance metrics, and visualizations**
+| File | Description |
+|------|------------|
+| [`results/reports/arbitrage_report.pdf`](results/reports/arbitrage_report.pdf) | Contains trade results, performance metrics, and visualizations |
+
 
 ## 📜 Smart Contract Deployment (Optional)
 To deploy the smart contract, first export your **private key**:
