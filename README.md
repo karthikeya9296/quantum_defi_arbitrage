@@ -102,15 +102,26 @@ python src/generate_report.py
 - `results/logs/arbitrage_trades.csv` → Executed trade logs
 - `results/logs/backtesting_results.csv` → Historical backtesting results
 
-### **🔹 Plots (Updates with new runs)**
-| Plot | Description |
-|------|------------|
-| `results/plots/arbitrage_opportunities.png` | Quantum vs. Classical arbitrage opportunities |
-| `results/plots/arbitrage_execution.png` | Execution times of arbitrage trades |
-| `results/plots/backtesting_profit.png` | Profit comparison (Quantum vs. Classical) |
-| `results/plots/backtesting_sharpe.png` | Sharpe Ratio of both models |
-| `results/plots/profitability_distribution.png` | Profit distribution across arbitrage models |
-| `results/plots/execution_times_histogram.png` | Execution times histogram |
+### 📊 Visualizations
+
+#### **Arbitrage Opportunities**
+![Arbitrage Opportunities](results/plots/arbitrage_opportunities.png)
+
+#### **Execution Time**
+![Arbitrage Execution](results/plots/arbitrage_execution.png)
+
+#### **Backtesting Profit Comparison**
+![Backtesting Profit](results/plots/backtesting_profit.png)
+
+#### **Backtesting Sharpe Ratio**
+![Backtesting Sharpe Ratio](results/plots/backtesting_sharpe.png)
+
+#### **Profitability Distribution**
+![Profitability Distribution](results/plots/profitability_distribution.png)
+
+#### **Execution Time Histogram**
+![Execution Time Histogram](results/plots/execution_times_histogram.png)
+
 
 ### **🔹 Reports**
 - **PDF Report** → `results/reports/arbitrage_report.pdf`
