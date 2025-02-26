@@ -1,3 +1,4 @@
 timestamp,best_trade,profit,status,execution_time
 2025-02-26 08:52:02,CoinGecko_USDT vs CoinGecko_WBTC,8830117.61%,Success,1.55
 2025-02-26 09:24:27,CoinGecko_USDT vs CoinGecko_WBTC,8877336.66%,Success,2.07
+2025-02-26 09:48:13,CoinGecko_USDT vs CoinGecko_WBTC,8893454.55%,Failure,4.39
