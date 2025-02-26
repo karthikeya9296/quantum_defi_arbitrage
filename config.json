@@ -1,0 +1,15 @@
+{
+  "API_KEYS": {
+    "infura": "b5a306ad6a4d45ee88354d394aebfc04",
+    "alchemy": "xFDzD6KOuPSqrhaV5NcQqZfg1lxRsOxZ",
+    "etherscan": "N8CMQ4ZR2AQ4PK1ENZ9K1NVQE3ISPWW5AY",
+    "coingecko": "CG-JSreqZNgPXxu8Savn3Ri44HZ"
+  },
+  "CONTRACT_ADDRESS": "",
+  "ACCOUNT_ADDRESS": "0xea0bF646ec0771329Fd6cbc21d73FdE0BD639397",
+  "PARAMETERS": {
+    "network": "ethereum",
+    "slippage_tolerance": 0.01,
+    "gas_limit": 250000
+  }
+}
