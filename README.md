@@ -7,34 +7,40 @@ Here’s everything in a **single code block**, maintaining the exact structure 
 This project leverages **quantum computing and classical methods** to optimize arbitrage trading strategies in **Decentralized Finance (DeFi)**. It automates data collection, quantum optimization, trade execution, backtesting, and result analysis.
 
 ## 📂 Project Structure
-```
-quantum_defi_arbitrage/
-│
-├── data/                          # Stores price data
-│   ├── raw/                        # Raw fetched data
-│   └── processed/                   # Processed optimized trades
-│
-├── models/                         # Trained quantum/classical models
-│
-├── results/                        # Output results (plots, logs, reports)
-│   ├── logs/                        # Logs for arbitrage trades & backtesting
-│   ├── plots/                       # Generated plots for analysis
-│   └── reports/                     # Final generated reports
-│
-├── src/                            # Source code for each phase
-│   ├── data_pipeline.py             # Fetches real-time token prices
-│   ├── quantum_optimization.py      # Runs quantum/classical optimization
-│   ├── arbitrage_execution.py       # Executes optimized trades
-│   ├── backtesting.py               # Backtests classical vs. quantum models
-│   ├── results_analysis.py          # Analyzes and visualizes results
-│   ├── deploy_contract.py           # (Optional) Deploys smart contract
-│   ├── generate_report.py           # Generates PDF report of results
-│   ├── config.py                    # Stores API keys and contract addresses
-│
-├── config.json                      # API keys and parameters
-├── requirements.txt                  # Dependencies
-├── README.md                         # This file
-```
+To properly format the **directory structure** in your `README.md` file so it appears correctly on GitHub, wrap it inside triple backticks (` ``` `) to maintain **code block formatting**. Here's how you should structure it:
+
+```md
+# Quantum DeFi Arbitrage
+
+## 📂 Project Structure
+
+
+## Description of Key Components
+
+### `data/`
+- **`raw/`**: Contains raw price data fetched from DeFi platforms.
+- **`processed/`**: Stores processed data after optimization for arbitrage trades.
+
+### `models/`
+- Contains trained quantum and classical models used for optimization.
+
+### `results/`
+- **`logs/`**: Logs of arbitrage trades and backtesting results.
+- **`plots/`**: Visualizations of analysis and results.
+- **`reports/`**: Final reports summarizing findings and performance.
+
+### `src/`
+- **`data_pipeline.py`**: Fetches real-time token prices from DeFi platforms.
+- **`quantum_optimization.py`**: Implements quantum and classical optimization algorithms.
+- **`arbitrage_execution.py`**: Executes optimized trades on supported platforms.
+- **`backtesting.py`**: Backtests the performance of quantum vs. classical models.
+- **`results_analysis.py`**: Analyzes and visualizes results for insights.
+- **`deploy_contract.py`**: (Optional) Deploys smart contracts for trade execution.
+- **`generate_report.py`**: Generates a PDF report summarizing results.
+- **`config.py`**: Stores API keys, contract addresses, and other configurations.
+- **`config.json`**: Configuration file for API keys and parameters.
+
+
 
 ## ⚙️ Setup Instructions
 
@@ -134,7 +140,7 @@ python src/deploy_contract.py
 ## 📬 Contact
 For questions, reach out to:  
 📧 **gummadikarthikeya3@gmail.com**  
-💼 **[Your LinkedIn](https://linkedin.com/in/karthikeya9296)**
+💼 **[LinkedIn](https://linkedin.com/in/karthikeya9296)**
 
 **🚀 Happy Trading!** 🔥💰
 ```
